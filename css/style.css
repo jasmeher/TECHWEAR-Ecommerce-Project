@@ -578,7 +578,7 @@ a {
       var(--background-secondary) 35%,
       #00000000 35%
     ),
-    url(../images/join-us.jpg) no-repeat right center;
+    url(../images/join-us.webp) no-repeat right center;
   background-size: cover;
 }
 
