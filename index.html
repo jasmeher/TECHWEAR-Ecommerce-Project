@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.1.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/883b3a7344.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo-container">
+        <a href="index.html" class="text-reset">
+          <p class="logo">TECHWEAR</p>
+        </a>
+      </div>
+      <ul class="navbar-cs mx-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">MEN</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">WOMEN</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">UNISEX</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">ACCESSORIES</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">ABOUT</a>
+        </li>
+      </ul>
+
+      <div class="icons-container ms-sm-auto mx-lg-0">
+        <span class="material-symbols-outlined me-3">search</span>
+        <span class="material-symbols-outlined"> shopping_bag </span>
+      </div>
+      <div class="light-dark-mode ms-sm-auto ms-lg-3">
+        <span
+          class="material-symbols-outlined dark-mode-icon"
+          onclick="toggleTheme()"
+        >
+          fiber_manual_record
+        </span>
+        <span
+          class="material-symbols-outlined light-mode-icon"
+          onclick="toggleTheme()"
+        >
+          wb_sunny
+        </span>
+      </div>
+      <a href="#offcanvas-menu" class="text-reset" data-bs-toggle="offcanvas"
+        ><span class="material-symbols-outlined offcanvas-menu-toggler"
+          >menu</span
+        ></a
+      >
+    </nav>
+    <main>
+      <header id="hero-section">
+        <p class="section-name">FEATURED</p>
+        <p class="welcome">- Welcome to TECHWEAR</p>
+        <div
+          id="carouselFeatured"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner carousel-inner-featured">
+            <div class="carousel-item active">
+              <div class="carousel-item-inner">
+                <div class="row flex-sm-column-reverse flex-lg-row">
+                  <p class="gender-category">MENS</p>
+                  <p class="category-name">JACKETS</p>
+                  <div class="col-lg-3 col-sm-12 product-info-container">
+                    <div class="product-info">
+                      <h1 class="product-name">JAPANESE WINDBREAKER</h1>
+                      <div class="price-container">
+                        <p class="real-price">$100.00</p>
+                        <p class="discounted-price">$80.00</p>
+                      </div>
+                      <div class="cta-bttn-wrapper">
+                        <button class="cta-bttn">
+                          ADD TO CART
+                          <span
+                            class="material-symbols-outlined"
+                            style="margin-left: 5px"
+                            >shopping_bag</span
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="carousel-product-container">
+                      <p class="discount">- 20%</p>
+                      <div class="img-container">
+                        <img
+                          src="Images/hero-carousel-1.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item-inner">
+                <div class="row flex-sm-column-reverse flex-lg-row">
+                  <p class="gender-category">MENS</p>
+                  <p class="category-name">PANTS</p>
+                  <div class="col-lg-3 col-sm-12 product-info-container">
+                    <div class="product-info">
+                      <h1 class="product-name">JAPANESE BAGGY PANTS</h1>
+                      <div class="price-container">
+                        <p class="real-price">$100.00</p>
+                        <p class="discounted-price">$70.00</p>
+                      </div>
+                      <div class="cta-bttn-wrapper">
+                        <button class="cta-bttn">
+                          ADD TO CART
+                          <span
+                            class="material-symbols-outlined"
+                            style="margin-left: 5px"
+                            >shopping_bag</span
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="carousel-product-container">
+                      <p class="discount">- 30%</p>
+                      <div class="img-container">
+                        <img
+                          src="Images/hero-carousel-2.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item-inner">
+                <div class="row flex-sm-column-reverse flex-lg-row">
+                  <p class="gender-category">UNISEX</p>
+                  <p class="category-name">SHOES</p>
+                  <div class="col-lg-3 col-sm-12 product-info-container">
+                    <div class="product-info">
+                      <h1 class="product-name">TECHWEAR SHOES</h1>
+                      <div class="price-container">
+                        <p class="real-price">$100.00</p>
+                        <p class="discounted-price">$90.00</p>
+                      </div>
+                      <div class="cta-bttn-wrapper">
+                        <button class="cta-bttn">
+                          ADD TO CART
+                          <span
+                            class="material-symbols-outlined"
+                            style="margin-left: 5px"
+                            >shopping_bag</span
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="carousel-product-container">
+                      <p class="discount">- 10%</p>
+                      <div class="img-container">
+                        <img
+                          src="Images/hero-carousel-4.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-bttn-container">
+          <button
+            class="carousel-control-bttn"
+            type="button"
+            data-bs-target="#carouselFeatured"
+            data-bs-slide="prev"
+          >
+            <span
+              class="material-symbols-outlined carousel-control-icon"
+              aria-hidden="true"
+              >west</span
+            >
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-bttn"
+            type="button"
+            data-bs-target="#carouselFeatured"
+            data-bs-slide="next"
+          >
+            <span
+              class="material-symbols-outlined carousel-control-icon"
+              aria-hidden="true"
+              >east</span
+            >
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+
+      <section id="latest-collection">
+        <p class="section-name">COLLECTIONS</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">LATEST COLLECTIONS</h1>
+              <div class="cta-bttn-wrapper">
+                <button class="cta-bttn">
+                  DISCOVER ALL
+                  <span
+                    class="material-symbols-outlined"
+                    style="margin-left: 5px"
+                    >east</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-5 col-sm-12 collection-text-container">
+              <p class="collection-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+                accusamus tempore numquam ullam laudantium, similique alias
+                libero magnam hic sit, quisquam vel modi error dolorum. Et
+                voluptates, accusamus asperiores possimus numquam dolor
+                incidunt? Ad cupiditate similique distinctio accusamus illo id,
+                adipisci consequatur reiciendis recusandae porro. Odit ex harum
+                velit est? Eum provident esse blanditiis, repudiandae commodi
+                sit labore neque corporis sed fuga non dolore quis aspernatur
+                molestiae cumque sint pariatur!
+              </p>
+            </div>
+            <div class="col-lg-7 col-sm-12 collection-gallery">
+              <div class="collection-card-row">
+                <div
+                  class="collection-card"
+                  style="background-image: url(Images/dune-collection.jpg)"
+                >
+                  <p class="collection-name">DUNE</p>
+                </div>
+                <div
+                  class="collection-card"
+                  style="background-image: url(Images/ninja.jpg)"
+                >
+                  <p class="collection-name">STEALTH</p>
+                </div>
+                <div
+                  class="collection-card"
+                  style="background-image: url(Images/squidgame.jpg)"
+                >
+                  <p class="collection-name">SQUID GAME</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="category">
+        <p class="section-name">EXPLORE TECHWEAR</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">SHOP FOR</h1>
+              <div class="cta-bttn-wrapper">
+                <button class="cta-bttn">
+                  SHOP ALL
+                  <span
+                    class="material-symbols-outlined"
+                    style="margin-left: 5px"
+                    >shopping_bag</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid my-4">
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 mb-4">
+              <a href="#" class="text-reset">
+                <div class="category-image-container">
+                  <p class="collection-name">MEN</p>
+                  <img src="Images/men-techwear.png" alt="" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 mb-4">
+              <a href="#" class="text-reset">
+                <div class="category-image-container">
+                  <p class="collection-name">WOMEN</p>
+                  <img
+                    src="Images/women-techwear.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-12 mb-4">
+              <a href="#" class="text-reset">
+                <div class="category-image-container">
+                  <p class="collection-name">UNISEX</p>
+                  <img
+                    src="Images/unisex-techwear.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="item-catalog">
+        <p class="section-name">LATEST</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">NEW ARRIVALS</h1>
+              <div class="cta-bttn-wrapper">
+                <button class="cta-bttn">
+                  VIEW ALL
+                  <span
+                    class="material-symbols-outlined"
+                    style="margin-left: 5px"
+                    >east</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 items-row mb-4">
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/pants-1.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR CARGO PANTS</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/cyberpunk.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">CYBERPUNK MASK</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/vest.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR MILITARY VEST</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/jacket-1.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR MEN JACKET</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/pants-2.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR BAGGY PANTS</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/set.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">FUTURISTIC TECHWEAR SET</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/set-2.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR STEALTH SET</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="item-catalog">
+        <p class="section-name">MUST HAVE</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">BESTSELLING</h1>
+              <div class="cta-bttn-wrapper">
+                <button class="cta-bttn">
+                  VIEW ALL
+                  <span
+                    class="material-symbols-outlined"
+                    style="margin-left: 5px"
+                    >east</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 items-row mb-4">
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/cyberpunk.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">CYBERPUNK MASK</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/set-2.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR STEALTH SET</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/vest.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR MILITARY VEST</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/cap.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR CAP</p>
+                  <div class="item-price-container">
+                    <p class="item-real-price">$100</p>
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/pants-1.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR CARGO PANTS</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+                <div class="item-card">
+                  <div class="item-img-container">
+                    <img src="Images/pants-1.png" alt="" class="img-fluid" />
+                  </div>
+                  <p class="item-name">TECHWEAR CARGO PANTS</p>
+                  <div class="item-price-container">
+                    <p class="item-discounted-price">$40</p>
+                  </div>
+                  <div class="cta-bttn-wrapper ms-0">
+                    <button class="cta-bttn" style="font-size: 1.4rem">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories">
+        <p class="section-name">EXPLORE MORE</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">OTHER CATEGORIES</h1>
+              <div class="cta-bttn-wrapper">
+                <button class="cta-bttn">
+                  SHOP ALL
+                  <span
+                    class="material-symbols-outlined"
+                    style="margin-left: 5px"
+                    >shopping_bag</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container my-4 content">
+          <div class="row">
+            <div class="col-12 col-categories py-3">
+              <div class="category-card">
+                <p class="collection-name">CYBERPUNK</p>
+                <img
+                  src="Images/cyberpunk-category.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category-card">
+                <p class="collection-name">FOOTWEAR</p>
+                <img src="Images/footwear.png" alt="" class="img-fluid" />
+              </div>
+              <div class="category-card">
+                <p class="collection-name">ACCESSORIES</p>
+                <img
+                  src="Images/accessories-category.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="category-card">
+                <p class="collection-name">JEWELRY</p>
+                <img
+                  src="Images/jewelry-category.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <p class="section-name mt-4">INSTAGRAM</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">BE WITH US</h1>
+              <a href="#" class="text-reset">
+                <div class="cta-bttn-wrapper" style="color: var(--accent)">
+                  @TECHWEAR
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="gallery-social">
+          <div class="gallery-img-social">
+            <img src="Images/gallery-1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-2.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-3.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-4.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-5.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-6.png" alt="" class="img-fluid" />
+          </div>
+          <div class="gallery-img-social">
+            <img src="Images/gallery-7.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+
+      <section id="join">
+        <p class="section-name mt-4">WANTED</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 collection-heading-section">
+              <h1 class="collection-heading">JOIN US</h1>
+              <a href="#" class="text-reset">
+                <div class="cta-bttn-wrapper">
+                  <button class="cta-bttn">
+                    JOIN THE CLUB!
+                    <span
+                      class="material-symbols-outlined"
+                      style="margin-left: 5px"
+                      >group</span
+                    >
+                  </button>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid content mt-3">
+          <div class="row flex-sm-column-reverse flex-lg-row">
+            <div class="col-lg-6 col-sm-12">
+              <p class="mt-5">
+                WE ARE LOOKING FOR AMBASSADORS TO SHOWCASE OUR COLLECTIONS
+              </p>
+              <p class="mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque facilis natus optio! Harum nemo excepturi, hic et,
+                explicabo placeat tenetur nisi mollitia nostrum cumque a
+                voluptatibus illum enim libero aliquam tempora. Laborum adipisci
+                molestias perferendis officiis id, architecto vero voluptate quo
+                minus dolor ullam, soluta sapiente facilis earum. Placeat,
+                accusamus.
+              </p>
+            </div>
+            <div class="col-lg-6 col-sm-12 join-us"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        <div class="container service-text-container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 text-center mb-5">
+              <p class="heading">24/7 SERVICE SUPPORT</p>
+              <p class="sub-heading">Phone No: + 01 234 567 88</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center">
+              <p class="heading">SECURED PAYMENTS</p>
+              <p class="sub-heading">On All Orders</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 text-center">
+              <p class="heading">FREE WORLDWIDE SHIPPING</p>
+              <p class="sub-heading">Guaranteed Checkout</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center">
+              <p class="heading">30-DAYS RETURN POLICY</p>
+              <p class="sub-heading">Money-Back Guarantee</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom-footer"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 icon-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h2 class="text-uppercase fw-bold mb-4">
+                  <p class="logo">TECHWEAR</p>
+                </h2>
+                <div class="container me-auto mb-4">
+                  <!-- Links -->
+
+                  <p>
+                    <a href="#!" class="icon-link"
+                      >About <span class="logo">TECHWEAR</span></a
+                    >
+                  </p>
+                  <p>
+                    <a href="#!" class="icon-link">Terms And Conditions</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="icon-link">Privacy Policy</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="icon-link">Our Blog</a>
+                  </p>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Help and Support</h6>
+                <p>
+                  <a href="#!" class="icon-link">Contact Us</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Delivery</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Track Your Order</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">About Pre-Order</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Return and Exchange</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Payment Methods</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Shop</h6>
+                <p>
+                  <a href="#!" class="icon-link">Men</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Women</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Unisex</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Accessories</a>
+                </p>
+                <p>
+                  <a href="#!" class="icon-link">Collections</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          All Images Used In The Project Belong To Their Owners
+        </div>
+        <!-- Copyright -->
+
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom-footer"
+        >
+          <!-- Left -->
+          <div class="row w-100">
+            <div class="col-lg-6 col-sm-12">
+              <div class="me-5 d-lg-block">
+                <span>Designed And Developed By Jasmeher Singh</span>
+              </div>
+            </div>
+            <!-- Left -->
+            <!-- Right -->
+            <div class="col-lg-6 col-sm-12 text-sm-center text-lg-end">
+              <div>
+                <a href="" class="me-4 icon-link">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 icon-link">
+                  <i class="fab fa-behance"></i>
+                </a>
+                <a href="" class="me-4 icon-link">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 icon-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Right -->
+        </section>
+      </footer>
+      <!-- Footer -->
+    </main>
+
+    <div
+      class="offcanvas offcanvas-end offcanvas-nav-cs"
+      tabindex="-1"
+      id="offcanvas-menu"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title logo" id="offcanvasExampleLabel">
+          TECHWEAR
+        </h2>
+        <button
+          type="button"
+          class="bttn-close-cs text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <span class="material-symbols-outlined icon-link">close</span>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="offcanvas-nav-list">
+          <li class="offcanvas-nav-item">
+            <a
+              href="#offcanvas-submenu"
+              data-bs-toggle="offcanvas"
+              class="nav-link"
+              >MEN</a
+            >
+          </li>
+          <li class="offcanvas-nav-item">
+            <a
+              href="#offcanvas-submenu"
+              data-bs-toggle="offcanvas"
+              class="nav-link"
+              >WOMEN</a
+            >
+          </li>
+          <li class="offcanvas-nav-item">
+            <a
+              href="#offcanvas-submenu"
+              data-bs-toggle="offcanvas"
+              class="nav-link"
+              >UNISEX</a
+            >
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">ACCESSORIES</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-end offcanvas-nav-cs"
+      tabindex="-1"
+      id="offcanvas-submenu"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title logo" id="offcanvasExampleLabel">
+          TECHWEAR
+        </h2>
+        <a
+          href="#offcanvas-menu"
+          type="button"
+          class="bttn-close-cs text-reset"
+          data-bs-toggle="offcanvas"
+          aria-label="Close"
+        >
+          <span class="material-symbols-outlined icon-link">west</span>
+        </a>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="offcanvas-nav-list">
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">FOOTWEAR</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">HEADWEAR</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">OUTWEAR</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">BAGS</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">BELTS</a>
+          </li>
+          <li class="offcanvas-nav-item">
+            <a href="#" class="nav-link">OTHER</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+@media screen and (max-width: 1025px) {
+  .product-name {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .img-container {
+    width: 60%;
+    margin-inline: auto;
+  }
+
+  .product-name {
+    font-size: 4rem;
+  }
+
+  .category-name {
+    font-size: 10rem;
+  }
+
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+
+  .gender-category {
+    top: 50%;
+  }
+
+  #hero-section,
+  #latest-collection,
+  #category,
+  #item-catalog,
+  #categories,
+  #join {
+    margin-bottom: 3.5rem;
+  }
+
+  .collection-heading {
+    font-size: 4rem;
+  }
+
+  .section-name {
+    font-size: 1.7rem;
+  }
+
+  .cta-bttn {
+    font-size: 1.3rem;
+  }
+
+  .collection-text-container {
+    min-height: 40vh;
+  }
+
+  .category-image-container {
+    width: 70%;
+    margin-inline: auto;
+  }
+
+  .join-us {
+    background: url(../images/join-us.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-cs {
+    display: none;
+  }
+  .icons-container {
+    display: none;
+  }
+
+  .offcanvas-menu-toggler {
+    display: block;
+    margin-left: 0.75rem;
+  }
+
+  .ms-sm-auto {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .collection-heading {
+    font-size: 3rem;
+    width: 50%;
+  }
+
+  .gender-category {
+    display: none;
+  }
+
+  #hero-section {
+    min-height: 50vh;
+  }
+
+  .product-name {
+    font-size: 3rem;
+  }
+  .img-container {
+    width: 100%;
+  }
+
+  .section-name {
+    left: 1rem;
+  }
+
+  .discount {
+    font-size: 3rem;
+    left: 5rem;
+  }
+
+  .category-name {
+    font-size: 7rem;
+    top: 30%;
+    left: 85%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .product-name {
+    width: 70%;
+  }
+}
